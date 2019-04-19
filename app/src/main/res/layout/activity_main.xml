@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_zhuanpan"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base360dp"
+        android:layout_marginLeft="@dimen/base7dp"
+        android:layout_marginRight="@dimen/base7dp"
+        android:background="@mipmap/ic_choujiang_zhuanpan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.example.walle.luckpan.luckypan.RotateLayoutView
+            android:id="@+id/rv_rotatelayoutview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center" />
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
